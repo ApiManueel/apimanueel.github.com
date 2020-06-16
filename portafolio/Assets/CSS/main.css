@@ -1,5 +1,5 @@
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   background-color: white;
 }
 
@@ -125,7 +125,7 @@ footer {
 }
 
 .container div {
-  margin: 0 4em;
+  margin: 0 1em;
 }
 
 .all-proyects {
@@ -195,4 +195,11 @@ footer {
 
 #ApiManueel {
   background-image: url(/portafolio/Assets/IMG/Apimanueel.jpg);
+}
+
+@media (max-width: 770px) {
+  .sl {
+    max-width: 90%;
+    margin-top: 2em;
+  }
 }
